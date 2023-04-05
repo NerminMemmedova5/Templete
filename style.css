@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu{
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.navbar-brand{
+    margin-left: 90px;
+}
+
+.navbar-nav{
+    margin-left: 260px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+#image{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 1080px;
+    height: 700px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  
+}
+
+.photography{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+
+#button {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(37, 37, 47, 0.065);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #button:hover {
+    background-color:rgb(28, 34, 46);
+    color: white;
+    border-color:rgb(28, 34, 46) ;
+  }
+  #footer{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .portfolio{
+    text-align: center;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+
+  #p-image{
+    height: 850px;
+  }
+  .image-column {
+
+    float:left;
+    width: 33.33%;
+    padding: 2px;
+  }
+  .portfolio-image{
+    margin-left: 80px;
+    margin-right: 10px;
+    
+  }
+
+  .potfolio-image1-text{
+    position: absolute;
+  top: 42%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  }
+
+  #port-btn1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(37, 37, 47, 0.065);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+   
+  }
+  #port-btn1:hover {
+    background-color:rgb(28, 34, 46);
+    color: white;
+    border-color:rgb(28, 34, 46) ;
+  }
+
+  .potfolio-image2-text{
+    position: absolute;
+  top: 42%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  }
+
+  #port-btn2{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(37, 37, 47, 0.065);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+  }
+  #port-btn2:hover {
+    background-color:rgb(28, 34, 46);
+    color: white;
+    border-color:rgb(28, 34, 46) ;
+  }
+
+  .potfolio-image3-text{
+    position: absolute;
+  top: 42%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  }
+
+  #port-btn3{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(37, 37, 47, 0.065);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+  }
+  #port-btn3:hover {
+    background-color:rgb(28, 34, 46);
+    color: white;
+    border-color:rgb(28, 34, 46) ;
+  }
+
+ .contact{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+  #contact-image{
+width: 500px;
+height: 750px;
+  }
+
+  .contact{
+    float:left;
+    width: 33.33%;
+    padding: 2px;
+    margin-top: 20px;
+  }
+
+  #con-text{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+
+  .contact-text{
+    float:left;
+    width: 33.33%;
+    padding: 2px;
+  } 
+
+  #con-description{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+  }
+
+  .registr{
+    margin-top: 300px;
+  }
+
+  #submit-Btn{
+    position: absolute;
+    top: 120%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(28, 34, 46);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+  }
+
+  #inp{
+    width: 400px;
+  }
+
+ 
